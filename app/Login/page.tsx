@@ -16,8 +16,8 @@ const Sign = () => {
   const [isLoading, setLoading] = useState(false);
 
   const onLogin = async () => {
-    setLoading(true);
     try {
+      setLoading(true);
       const response = await axios.post("/api/users/login", user);
       console.log("Login successfull", response.data);
       toast.success("Login successfull");
@@ -72,7 +72,7 @@ const Sign = () => {
             <input
               id="password"
               value={user.password}
-              type="text"
+              type="password"
               onChange={(e) => setUser({ ...user, password: e.target.value })}
               placeholder="password"
               className="border border-[rgba(255,255,255,0.2)] text-white font-generalRegular rounded-md px-2 py-2 w-80"
@@ -90,7 +90,6 @@ const Sign = () => {
                 : "opacity-100 cursor-pointer hover:bg-slate-400"
             }`}
           >
-            Login
             {isLoading ? (
               <>
                 <div className="h-4 w-4 animate-spin rounded-full border-2 border-black border-t-transparent"></div>
