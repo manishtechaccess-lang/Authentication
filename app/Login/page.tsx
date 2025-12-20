@@ -109,7 +109,7 @@ const Sign = () => {
             <span className="">
               <MoveLeft size={16} />
             </span>{" "}
-            <span>Visit login page</span>
+            <span>Visit Signup page</span>
           </div>
         </div>
       </div>

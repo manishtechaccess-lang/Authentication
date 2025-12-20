@@ -146,6 +146,81 @@
   src: url(/font/Switzer-Variable.woff2);
 }
 
+@font-face {
+  font-family: gilThin;
+  src: url(/font/Gilroy-Thin.woff2);
+}
+@font-face {
+  font-family: gilUltraLight;
+  src: url(/font/Gilroy-UltraLight.woff2);
+}
+@font-face {
+  font-family: gilLight;
+  src: url(/font/Gilroy-Light.woff2);
+}
+@font-face {
+  font-family: gilRegular;
+  src: url(/font/Gilroy-Regular.woff2);
+}
+@font-face {
+  font-family: gilMedium;
+  src: url(/font/Gilroy-Medium.woff2);
+}
+@font-face {
+  font-family: gilSemiBold;
+  src: url(/font/Gilroy-SemiBold.woff2);
+}
+@font-face {
+  font-family: gilBold;
+  src: url(/font/Gilroy-Bold.woff);
+}
+@font-face {
+  font-family: gilExtraBold;
+  src: url(/font/Gilroy-ExtraBold.woff);
+}
+
+@font-face {
+  font-family: gilBlack;
+  src: url(/font/Gilroy-Black.woff);
+}
+@font-face {
+  font-family: gilHeavy;
+  src: url(/font/Gilroy-Heavy.woff);
+}
+@font-face {
+  font-family: droidSans;
+  src: url(/font/DroidSansMono.woff2);
+}
+
+@font-face {
+  font-family: mangoThin;
+  src: url(/font/MangoGrotesque-Thin.woff2);
+}
+@font-face {
+  font-family: mangoLight;
+  src: url(/font/MangoGrotesque-Light.woff2);
+}
+@font-face {
+  font-family: mangoRegular;
+  src: url(/font/MangoGrotesque-Regular.woff2);
+}
+@font-face {
+  font-family: mangoMedium;
+  src: url(/font/MangoGrotesque-Medium.woff2);
+}
+@font-face {
+  font-family: mangoSemiBold;
+  src: url(/font/MangoGrotesque-SemiBold.woff2);
+}
+@font-face {
+  font-family: mangoBold;
+  src: url(/font/MangoGrotesque-Bold.woff2);
+}
+@font-face {
+  font-family: mangoExtraBold;
+  src: url(/font/MangoGrotesque-ExtraBold.woff2);
+}
+
 @theme {
   --font-clashBold: clashBold, "sans-serif";
   --font-clashSemiBold: clashSemiBold, "sans-serif";
@@ -169,6 +244,25 @@
   --font-switzerLight: switzerLight, "sans-serif";
   --font-switzerThin: switzerThin, "sans-serif";
   --font-switzerVariable: switzerVariable, "sans-serif";
+  --font-gilThin: gilThin, "sans-serif";
+  --font-gilUltraLight: gilUltraLight, "sans-serif";
+  --font-gilLight: gilLight, "sans-serif";
+  --font-gilRegular: gilRegular, "sans-serif";
+  --font-gilMedium: gilMedium, "sans-serif";
+  --font-gilSemiBold: gilSemiBold, "sans-serif";
+  --font-gilBold: gilBold, "sans-serif";
+  --font-gilExtraBold: gilExtraBold, "sans-serif";
+  --font-gilBlack: gilBlack, "sans-serif";
+  --font-gilHeavy: gilHeavy, "sans-serif";
+  --font-droidSans: droidSans, "sans-serif";
+  --font-mango-thin: mangoThin, "sans-serif";
+  --font-mango-light: mangoLight, "sans-serif";
+  --font-mango-regular: mangoRegular, "sans-serif";
+  --font-mango-medium: mangoMedium, "sans-serif";
+  --font-mango-semiBold: mangoSemiBold, "sans-serif";
+  --font-mango-bold: mangoBold, "sans-serif";
+  --font-mango-extraBold: mangoExtraBold, "sans-serif";
+  --font-mango-black: mangoBlack, "sans-serif";
 }
 
 /*---break---  */
